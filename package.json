@@ -1,6 +1,6 @@
 {
   "name": "notificationpopup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React notification popup Component shows a message for a time",
   "main": "dist/index.js",
   "scripts": {
@@ -21,13 +21,8 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
-    "coloredbutton": "^1.0.1",
-    "lookupfield": "^1.0.0",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
-    "react-fontawesome": "^1.6.1",
-    "react_tags": "^1.0.0",
-    "textfield": "^1.0.3",
     "webpack": "^3.10.0"
   },
   "repository": {
