@@ -1,6 +1,6 @@
 {
   "name": "notificationpopup",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React notification popup Component shows a message for a time",
   "main": "dist/index.js",
   "scripts": {

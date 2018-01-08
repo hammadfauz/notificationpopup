@@ -13,9 +13,8 @@ class Notification extends React.Component {
     if (this.props.content !== nextProps.content
       && nextProps.content != false) {
       this.state.visible = true;
-      this.setState(this.state,function () {
-        setTimeout(self.disappear,self.props.timeout || 5000);
-      });
+      this.setState(this.state);
+      setTimeout(self.disappear,self.props.timeout || 5000);
       return true;
     }else{
       return false;
