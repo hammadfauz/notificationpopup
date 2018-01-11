@@ -126,6 +126,9 @@ var Notification = function (_React$Component) {
     key: 'disappear',
     value: function disappear() {
       this.setState({ visible: false });
+      if (typeof this.props.onClear === 'function') {
+        this.props.onClear();
+      }
     }
   }, {
     key: 'render',

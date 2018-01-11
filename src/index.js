@@ -22,6 +22,9 @@ class Notification extends React.Component {
   }
   disappear () {
     this.setState({visible : false});
+    if (typeof this.props.onClear === 'function') {
+      this.props.onClear();
+    }
   }
   render () {
     let styles = {
